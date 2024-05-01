@@ -1,0 +1,68 @@
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80");
+  }
+  
+  .container {
+    background-color: #fff;
+    width: 400px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .backImg {
+    background-image: url(https://img.freepik.com/premium-vector/beautiful-night-lake-with-full-moon-rising-starry-sky_116220-124.jpg?w=826);
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    border-radius: 7px;
+  }
+  
+  .text {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .text h1 {
+    font-size: 28px;
+    margin: 10px 0;
+  }
+  
+  span {
+    font-weight: 600;
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input {
+    width: 77%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    overflow: hidden;
+  }
+  
+  .error {
+    color: #ff0000;
+    margin-top: 5px;
+  }
+  
+  .btn {
+    background-color: #283618;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #2E590E;
+  }

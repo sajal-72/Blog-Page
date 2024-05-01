@@ -1,0 +1,51 @@
+.post{
+    display: flex;
+    padding: 40px;
+}
+
+.postimg{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-left: auto;
+}
+
+.postinfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.postcats{
+    font-size: 11px;
+    color: #be9656;
+    line-height: 20px ;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.posttitle p{
+    font-size: 23px;
+    font-weight: 700;
+    margin-top: 11px;
+    cursor: pointer;
+    color: black;
+}
+
+.postdate{
+    font-size: 13px;
+    color: #999;
+    margin-top: -7px;
+}
+
+.postdesc{
+    font-size: 13px;
+    color: #444;
+    line-height: 24px;
+    margin-top: 7px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
